@@ -1,0 +1,8 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+Encoding=UTF-8
+_Name=Sample Plugin
+_Comment=Sample plugin for the Xfce panel
+Icon=xfce4-sample-plugin
+X-XFCE-Exec=@libexecdir@/xfce4/panel-plugins/xfce4-sample-plugin
+#X-XFCE-Unique=true
