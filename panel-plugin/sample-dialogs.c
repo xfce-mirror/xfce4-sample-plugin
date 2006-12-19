@@ -27,8 +27,8 @@
 #include <libxfcegui4/libxfcegui4.h>
 #include <libxfce4panel/xfce-panel-plugin.h>
 
-#include "clipman.h"
-#include "clipman-dialogs.h"
+#include "sample.h"
+#include "sample-dialogs.h"
 
 /* the website url */
 #define PLUGIN_WEBSITE "http://goodies.xfce.org/projects/panel-plugins/xfce4-sample-plugin"
@@ -98,4 +98,13 @@ sample_configure (XfcePanelPlugin *plugin,
 
   /* show the entire dialog */
   gtk_widget_show (dialog);
+}
+
+
+
+void
+sample_about (XfcePanelPlugin *plugin)
+{
+  /* about dialog code. you can use the GtkAboutDialog
+   * or the XfceAboutInfo widget */
 }

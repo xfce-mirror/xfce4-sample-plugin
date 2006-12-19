@@ -27,14 +27,15 @@
 #include <gtk/gtk.h>
 #include <libxfce4util/libxfce4util.h>
 #include <libxfce4panel/xfce-panel-plugin.h>
+#include <libxfce4panel/xfce-hvbox.h>
 
 #include "sample.h"
 #include "sample-dialogs.h"
 
 /* default settings */
-#define default_setting1 NULL
-#define default_setting2 1
-#define default_setting3 FALSE
+#define DEFAULT_SETTING1 NULL
+#define DEFAULT_SETTING2 1
+#define DEFAULT_SETTING3 FALSE
 
 
 
@@ -52,8 +53,8 @@ void
 sample_save (XfcePanelPlugin *plugin,
              SamplePlugin    *sample)
 {
-  XfceRc      *rc;
-  gchar       *file;
+  XfceRc *rc;
+  gchar  *file;
 
   /* get the config file location */
   file = xfce_panel_plugin_save_location (plugin, TRUE);
@@ -71,7 +72,10 @@ sample_save (XfcePanelPlugin *plugin,
   if (G_LIKELY (rc != NULL))
     {
       /* save the settings */
-      xfce_rc_write_entry      (rc, "setting1", sample->setting1);
+      DBG(".");
+      if (sample->setting1)
+        xfce_rc_write_entry    (rc, "setting1", sample->setting1);
+
       xfce_rc_write_int_entry  (rc, "setting2", sample->setting2);
       xfce_rc_write_bool_entry (rc, "setting3", sample->setting3);
 
@@ -83,14 +87,14 @@ sample_save (XfcePanelPlugin *plugin,
 
 
 static void
-clipman_read (SamplePlugin *sample)
+sample_read (SamplePlugin *sample)
 {
   XfceRc      *rc;
-  gchar       *file
+  gchar       *file;
   const gchar *value;
 
   /* get the plugin config file location */
-  file = xfce_panel_plugin_save_location (plugin, TRUE);
+  file = xfce_panel_plugin_save_location (sample->plugin, TRUE);
 
   if (G_LIKELY (file != NULL))
     {
@@ -130,15 +134,40 @@ clipman_read (SamplePlugin *sample)
 static SamplePlugin *
 sample_new (XfcePanelPlugin *plugin)
 {
-    SamplePlugin *sample;
+  SamplePlugin   *sample;
+  GtkOrientation  orientation;
+  GtkWidget      *label;
 
-    /* allocate memory for the plugin structure */
-    sample = panel_slice_new0 (SamplePlugin);
+  /* allocate memory for the plugin structure */
+  sample = panel_slice_new0 (SamplePlugin);
 
-    /* pointer to plugin */
-    clipman->plugin = plugin;
+  /* pointer to plugin */
+  sample->plugin = plugin;
 
-    return clipman;
+  /* read the user settings */
+  sample_read (sample);
+
+  /* get the current orientation */
+  orientation = xfce_panel_plugin_get_orientation (plugin);
+
+  /* create some panel widgets */
+  sample->ebox = gtk_event_box_new ();
+  gtk_widget_show (sample->ebox);
+
+  sample->hvbox = xfce_hvbox_new (orientation, FALSE, 2);
+  gtk_widget_show (sample->hvbox);
+  gtk_container_add (GTK_CONTAINER (sample->ebox), sample->hvbox);
+
+  /* some sample widgets */
+  label = gtk_label_new (_("Sample"));
+  gtk_widget_show (label);
+  gtk_box_pack_start (GTK_BOX (sample->hvbox), label, FALSE, FALSE, 0);
+
+  label = gtk_label_new (_("Plugin"));
+  gtk_widget_show (label);
+  gtk_box_pack_start (GTK_BOX (sample->hvbox), label, FALSE, FALSE, 0);
+
+  return sample;
 }
 
 
@@ -155,14 +184,25 @@ sample_free (XfcePanelPlugin *plugin,
     gtk_widget_destroy (dialog);
 
   /* destroy the panel widgets */
-  gtk_widget_destroy (sample->ebox);
+  gtk_widget_destroy (sample->hvbox);
 
   /* cleanup the settings */
   if (G_LIKELY (sample->setting1 != NULL))
     g_free (sample->setting1);
 
   /* free the plugin structure */
-  panel_slice_free (ClipmanPlugin, clipman);
+  panel_slice_free (SamplePlugin, sample);
+}
+
+
+
+static void
+sample_orientation_changed (XfcePanelPlugin *plugin,
+                            GtkOrientation   orientation,
+                            SamplePlugin    *sample)
+{
+  /* change the orienation of the box */
+  xfce_hvbox_set_orientation (XFCE_HVBOX (sample->hvbox), orientation);
 }
 
 
@@ -172,10 +212,19 @@ sample_size_changed (XfcePanelPlugin *plugin,
                      gint             size,
                      SamplePlugin    *sample)
 {
-    /* set the ebox widget size */
-    gtk_widget_set_size_request (sample->ebox, size, size);
+  GtkOrientation orientation;
 
-    return TRUE;
+  /* get the orientation of the plugin */
+  orientation = xfce_panel_plugin_get_orientation (plugin);
+
+  /* set the widget size */
+  if (orientation == GTK_ORIENTATION_HORIZONTAL)
+    gtk_widget_set_size_request (GTK_WIDGET (plugin), -1, size);
+  else
+    gtk_widget_set_size_request (GTK_WIDGET (plugin), size, -1);
+
+  /* we handled the orientation */
+  return TRUE;
 }
 
 
@@ -192,7 +241,7 @@ sample_construct (XfcePanelPlugin *plugin)
   sample = sample_new (plugin);
 
   /* add the ebox to the panel */
-  gtk_container_add (GTK_CONTAINER (plugin), sample-ebox);
+  gtk_container_add (GTK_CONTAINER (plugin), sample->ebox);
 
   /* show the panel's right-click menu on this ebox */
   xfce_panel_plugin_add_action_widget (plugin, sample->ebox);
@@ -218,5 +267,5 @@ sample_construct (XfcePanelPlugin *plugin)
   /* show the about menu item and connect signal */
   xfce_panel_plugin_menu_show_about (plugin);
   g_signal_connect (G_OBJECT (plugin), "about",
-                    G_CALLBACK (about_configure), NULL);
+                    G_CALLBACK (sample_about), NULL);
 }

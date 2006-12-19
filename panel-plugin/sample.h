@@ -22,9 +22,6 @@
 
 G_BEGIN_DECLS
 
-/* dialog settings */
-#define BORDER 8
-
 /* plugin structure */
 typedef struct
 {
@@ -32,6 +29,7 @@ typedef struct
 
     /* panel widgets */
     GtkWidget       *ebox;
+    GtkWidget       *hvbox;
     GtkWidget       *label;
 
     /* sample settings */
@@ -44,7 +42,8 @@ SamplePlugin;
 
 
 void
-sample_save (XfcePanelPlugin *plugin, SamplePlugin *sample);
+sample_save (XfcePanelPlugin *plugin,
+             SamplePlugin    *sample);
 
 G_END_DECLS
 

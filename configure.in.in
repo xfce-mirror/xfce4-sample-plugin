@@ -15,7 +15,7 @@ dnl *** Initialize autoconf ***
 dnl ***************************
 AC_COPYRIGHT([Copyright (c) 2006-2007
         The Xfce development team. All rights reserved.])
-AC_INIT([Sample plugin], [sample_version()], [http://bugzilla.xfce.org/], [Sample plugin])
+AC_INIT([xfce4-sample-plugin], [sample_version()], [http://bugzilla.xfce.org/], [xfce4-sample-plugin])
 AC_PREREQ([2.50])
 AC_CANONICAL_TARGET()
 AC_REVISION([$Id])
