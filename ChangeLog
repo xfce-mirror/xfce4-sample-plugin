@@ -1,0 +1,22 @@
+2004-07-09 09:53  olivier
+
+	* ChangeLog: Update ChangeLogs for 4.0.6
+
+2004-05-04 00:15  olivier
+
+	* Makefile.in, aclocal.m4, config.guess, config.sub, configure,
+	  install-sh, ltmain.sh, mkinstalldirs, panel-plugin/Makefile.in:
+	  Update zh_TW translations by umm <umm@pchome.com.tw>
+
+2004-01-25 01:10  olivier
+
+	* Makefile.in, aclocal.m4, compile, config.guess, config.sub,
+	  configure, configure.ac, depcomp, install-sh, ltmain.sh, missing,
+	  mkinstalldirs, panel-plugin/Makefile.in: Update libtool and other
+	  automake, autoconf and gettext.
+
+2004-01-07 21:38  olivier
+
+	* configure, configure.ac: Huge update before 4.0.3 release,
+	  mainly: ChangeLog update, Version number updates.
+
