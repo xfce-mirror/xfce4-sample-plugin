@@ -2,7 +2,7 @@ dnl $Id$
 dnl
 dnl xfce4-sample-plugin - A sample plugin for the Xfce panel
 dnl
-dnl 2006-2007 John Doo <john@foo.org>
+dnl 2011 John Doo <john@foo.org>
 dnl
 
 dnl ***************************
@@ -18,7 +18,7 @@ m4_define([sample_version], [sample_version_major().sample_version_minor().sampl
 dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
-AC_COPYRIGHT([Copyright (c) 2006-2007
+AC_COPYRIGHT([Copyright (c) 2011
         The Xfce development team. All rights reserved.])
 AC_INIT([xfce4-sample-plugin], [sample_version], [http://bugzilla.xfce.org/], [xfce4-sample-plugin])
 AC_PREREQ([2.50])
