@@ -1,8 +1,6 @@
-# $Id$
-
-SUBDIRS =								\
-	icons								\
-	panel-plugin 							\
+SUBDIRS =	\
+	icons	\
+	panel-plugin \
 	po
 
 distclean-local:
@@ -12,14 +10,23 @@ rpm: dist
 	rpmbuild -ta $(PACKAGE)-$(VERSION).tar.gz
 	@rm -f $(PACKAGE)-$(VERSION).tar.gz
 
-EXTRA_DIST =								\
-	intltool-extract.in						\
-	intltool-merge.in						\
+.PHONY: ChangeLog
+
+ChangeLog: Makefile
+	(GIT_DIR=$(top_srcdir)/.git git log xfce-4.6-master..HEAD > .changelog.tmp \
+	&& mv .changelog.tmp ChangeLog; rm -f .changelog.tmp) \
+	|| (touch ChangeLog; echo 'Git directory not found: installing possibly empty changelog.' >&2)
+
+dist-hook: ChangeLog
+
+EXTRA_DIST = \
+	intltool-extract.in \
+	intltool-merge.in \
 	intltool-update.in
 
-DISTCLEANFILES =							\
-	intltool-extract						\
-	intltool-merge							\
+DISTCLEANFILES = \
+	intltool-extract \
+	intltool-merge \
 	intltool-update
 
 # vi:set ts=8 sw=8 noet ai nocindent syntax=automake:
