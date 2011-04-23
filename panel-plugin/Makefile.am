@@ -1,35 +1,33 @@
-# $Id$
-
-INCLUDES =								\
-	-I$(top_srcdir)							\
-	-DG_LOG_DOMAIN=\"xfce4-sample-plugin\"				\
-	-DPACKAGE_LOCALE_DIR=\"$(localedir)\"				\
+INCLUDES = \
+	-I$(top_srcdir) \
+	-DG_LOG_DOMAIN=\"xfce4-sample-plugin\" \
+	-DPACKAGE_LOCALE_DIR=\"$(localedir)\" \
 	$(PLATFORM_CPPFLAGS)
 
 #
 # Sample plugin
 #
-plugin_PROGRAMS =							\
+plugin_PROGRAMS = \
 	xfce4-sample-plugin
 
-plugindir =								\
+plugindir = \
 	$(libexecdir)/xfce4/panel-plugins
 
-xfce4_sample_plugin_SOURCES =						\
-	sample.c							\
-	sample.h							\
-	sample-dialogs.c						\
+xfce4_sample_plugin_SOURCES = \
+	sample.c \
+	sample.h \
+	sample-dialogs.c \
 	sample-dialogs.h
 
-xfce4_sample_plugin_CFLAGS =						\
-	$(LIBXFCE4UTIL_CFLAGS)						\
-	$(LIBXFCEGUI4_CFLAGS)						\
-	$(LIBXFCE4PANEL_CFLAGS)						\
+xfce4_sample_plugin_CFLAGS = \
+	$(LIBXFCE4UTIL_CFLAGS) \
+	$(LIBXFCE4UI_CFLAGS) \
+	$(LIBXFCE4PANEL_CFLAGS) \
 	$(PLATFORM_CFLAGS)
 
-xfce4_sample_plugin_LDADD =						\
-	$(LIBXFCE4UTIL_LIBS)						\
-	$(LIBXFCEGUI4_LIBS)						\
+xfce4_sample_plugin_LDADD = \
+	$(LIBXFCE4UTIL_LIBS) \
+	$(LIBXFCE4UI_LIBS) \
 	$(LIBXFCE4PANEL_LIBS)
 
 #
