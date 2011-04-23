@@ -13,7 +13,7 @@ rpm: dist
 .PHONY: ChangeLog
 
 ChangeLog: Makefile
-	(GIT_DIR=$(top_srcdir)/.git git log xfce-4.6-master..HEAD > .changelog.tmp \
+	(GIT_DIR=$(top_srcdir)/.git git log > .changelog.tmp \
 	&& mv .changelog.tmp ChangeLog; rm -f .changelog.tmp) \
 	|| (touch ChangeLog; echo 'Git directory not found: installing possibly empty changelog.' >&2)
 
