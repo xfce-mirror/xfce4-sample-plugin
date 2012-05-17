@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Copyright (c) 2002-20011 The Xfce development team. All rights reserved.
+# Copyright (c) 2002-2012 The Xfce development team. All rights reserved.
 #
 # This library is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the Free
