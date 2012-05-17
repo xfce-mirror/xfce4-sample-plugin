@@ -45,7 +45,7 @@ sample_construct (XfcePanelPlugin *plugin);
 
 
 /* register the plugin */
-XFCE_PANEL_PLUGIN_REGISTER_EXTERNAL (sample_construct);
+XFCE_PANEL_PLUGIN_REGISTER (sample_construct);
 
 
 
