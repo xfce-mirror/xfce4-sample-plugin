@@ -201,7 +201,7 @@ sample_orientation_changed (XfcePanelPlugin *plugin,
                             SamplePlugin    *sample)
 {
   /* change the orienation of the box */
-  xfce_hvbox_set_orientation (XFCE_HVBOX (sample->hvbox), orientation);
+  gtk_orientable_set_orientation(GTK_ORIENTABLE(sample->hvbox), orientation);
 }
 
 
