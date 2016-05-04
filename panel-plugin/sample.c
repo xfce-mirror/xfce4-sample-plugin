@@ -153,7 +153,7 @@ sample_new (XfcePanelPlugin *plugin)
   sample->ebox = gtk_event_box_new ();
   gtk_widget_show (sample->ebox);
 
-  sample->hvbox = xfce_hvbox_new (orientation, FALSE, 2);
+  sample->hvbox = gtk_box_new (orientation, 2);
   gtk_widget_show (sample->hvbox);
   gtk_container_add (GTK_CONTAINER (sample->ebox), sample->hvbox);
 
