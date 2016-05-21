@@ -81,7 +81,7 @@ sample_configure (XfcePanelPlugin *plugin,
   dialog = xfce_titled_dialog_new_with_buttons (_("Sample Plugin"),
                                                 GTK_WINDOW (gtk_widget_get_toplevel (GTK_WIDGET (plugin))),
                                                 GTK_DIALOG_DESTROY_WITH_PARENT,
-                                                "help-browser", GTK_RESPONSE_HELP,
+                                                "gtk-help", GTK_RESPONSE_HELP,
                                                 "gtk-close", GTK_RESPONSE_OK,
                                                 NULL);
 
