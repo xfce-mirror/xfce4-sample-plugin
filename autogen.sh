@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Copyright (c) 2002-2012 The Xfce development team. All rights reserved.
+# Copyright (c) 2002-2017 The Xfce development team. All rights reserved.
 #
 # This library is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the Free
@@ -24,10 +24,12 @@
 autogen.sh: You don't seem to have the Xfce development tools installed on
             your system, which are required to build this software.
             Please install the xfce4-dev-tools package first, it is available
-            from http://www.xfce.org/.
+            from https://www.xfce.org/.
 EOF
   exit 1
 }
+
+test -d m4 || mkdir m4
 
 XDT_AUTOGEN_REQUIRED_VERSION="4.9.1" \
 exec xdt-autogen $@
