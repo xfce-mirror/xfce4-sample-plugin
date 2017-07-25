@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-25 13:27+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Igor <f2404@yandex.ru>, 2017\n"
+"Language-Team: Russian (https://www.transifex.com/xfce/teams/16840/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#. some sample widgets
+#: ../panel-plugin/sample.c:161
+msgid "Sample"
+msgstr "Образец"
+
+#: ../panel-plugin/sample.c:165
+msgid "Plugin"
+msgstr "Модуль"
+
+#: ../panel-plugin/sample-dialogs.c:51
+#, c-format
+msgid "Unable to open the following url: %s"
+msgstr "Невозможно открыть ссылку: %s"
+
+#. create the dialog
+#: ../panel-plugin/sample-dialogs.c:81 ../panel-plugin/sample.desktop.in.h:1
+msgid "Sample Plugin"
+msgstr "Модуль-образец"
+
+#: ../panel-plugin/sample-dialogs.c:127
+msgid "This is a sample plugin"
+msgstr "Это модуль-образец"
+
+#: ../panel-plugin/sample-dialogs.c:129
+msgid "Copyright © 2006-2017 Xfce Dev\n"
+msgstr "Copyright © 2006-2017 Разработчики Xfce\n"
+
+#: ../panel-plugin/sample.desktop.in.h:2
+msgid "Sample plugin for the Xfce panel"
+msgstr "Модуль-образец для панели Xfce"
