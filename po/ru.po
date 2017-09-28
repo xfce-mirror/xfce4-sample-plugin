@@ -21,7 +21,7 @@ msgstr ""
 #. some sample widgets
 #: ../panel-plugin/sample.c:161
 msgid "Sample"
-msgstr "Образец"
+msgstr "Пример"
 
 #: ../panel-plugin/sample.c:165
 msgid "Plugin"
@@ -35,11 +35,11 @@ msgstr "Невозможно открыть ссылку: %s"
 #. create the dialog
 #: ../panel-plugin/sample-dialogs.c:81 ../panel-plugin/sample.desktop.in.h:1
 msgid "Sample Plugin"
-msgstr "Модуль-образец"
+msgstr "Пример модуля"
 
 #: ../panel-plugin/sample-dialogs.c:127
 msgid "This is a sample plugin"
-msgstr "Это модуль-образец"
+msgstr "Это пример модуля"
 
 #: ../panel-plugin/sample-dialogs.c:129
 msgid "Copyright © 2006-2017 Xfce Dev\n"
@@ -47,4 +47,4 @@ msgstr "Copyright © 2006-2017 Разработчики Xfce\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
-msgstr "Модуль-образец для панели Xfce"
+msgstr "Пример модуля для панели Xfce"
