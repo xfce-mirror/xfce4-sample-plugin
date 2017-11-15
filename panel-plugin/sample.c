@@ -138,7 +138,7 @@ sample_new (XfcePanelPlugin *plugin)
   GtkWidget      *label;
 
   /* allocate memory for the plugin structure */
-  sample = panel_slice_new0 (SamplePlugin);
+  sample = g_slice_new0 (SamplePlugin);
 
   /* pointer to plugin */
   sample->plugin = plugin;
@@ -190,7 +190,7 @@ sample_free (XfcePanelPlugin *plugin,
     g_free (sample->setting1);
 
   /* free the plugin structure */
-  panel_slice_free (SamplePlugin, sample);
+  g_slice_free (SamplePlugin, sample);
 }
 
 
