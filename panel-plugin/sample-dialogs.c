@@ -95,7 +95,7 @@ sample_configure (XfcePanelPlugin *plugin,
    * is closed, but the dialog is still open */
   g_object_set_data (G_OBJECT (plugin), "dialog", dialog);
 
-  /* connect the reponse signal to the dialog */
+  /* connect the response signal to the dialog */
   g_signal_connect (G_OBJECT (dialog), "response",
                     G_CALLBACK(sample_configure_response), sample);
 
