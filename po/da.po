@@ -43,7 +43,7 @@ msgstr "Dette er et prøve-plugin"
 
 #: ../panel-plugin/sample-dialogs.c:129
 msgid "Copyright © 2006-2017 Xfce Dev\n"
-msgstr "Ophavsret © 2006-2017 Xfce Dev\n"
+msgstr "Ophavsret © 2006-2017 Xfce's udviklingshold\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
