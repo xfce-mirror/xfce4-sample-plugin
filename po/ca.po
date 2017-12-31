@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-25 18:40+0200\n"
+"POT-Creation-Date: 2017-11-28 14:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017\n"
 "Language-Team: Catalan (https://www.transifex.com/xfce/teams/16840/ca/)\n"
@@ -30,7 +30,7 @@ msgstr "Connector"
 #: ../panel-plugin/sample-dialogs.c:51
 #, c-format
 msgid "Unable to open the following url: %s"
-msgstr "No es pot obrir l'URL següent: %s"
+msgstr "No es pot obrir l'url següent: %s"
 
 #. create the dialog
 #: ../panel-plugin/sample-dialogs.c:81 ../panel-plugin/sample.desktop.in.h:1
