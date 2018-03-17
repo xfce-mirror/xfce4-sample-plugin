@@ -30,7 +30,7 @@ msgstr "Greffon"
 #: ../panel-plugin/sample-dialogs.c:51
 #, c-format
 msgid "Unable to open the following url: %s"
-msgstr "Impossible d'ouvrir le lien : %s"
+msgstr "Impossible d’ouvrir le lien : %s"
 
 #. create the dialog
 #: ../panel-plugin/sample-dialogs.c:81 ../panel-plugin/sample.desktop.in.h:1
@@ -43,7 +43,7 @@ msgstr "Ceci est un exemple de greffon"
 
 #: ../panel-plugin/sample-dialogs.c:129
 msgid "Copyright © 2006-2017 Xfce Dev\n"
-msgstr "Copyright © 2006-2017 Xfce Dev\n"
+msgstr "Copyright © 2006-2017 L’équipe de développement Xfce\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
