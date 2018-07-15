@@ -25,26 +25,26 @@ msgstr "Esempio"
 
 #: ../panel-plugin/sample.c:165
 msgid "Plugin"
-msgstr "Plugin"
+msgstr "Componente aggiuntivo"
 
 #: ../panel-plugin/sample-dialogs.c:51
 #, c-format
 msgid "Unable to open the following url: %s"
-msgstr "Impossibile aprire il seguente url: %s"
+msgstr "Impossibile aprire il seguente URL: %s"
 
 #. create the dialog
 #: ../panel-plugin/sample-dialogs.c:81 ../panel-plugin/sample.desktop.in.h:1
 msgid "Sample Plugin"
-msgstr "Plugin d'esempio"
+msgstr "Componente aggiuntivo di esempio"
 
 #: ../panel-plugin/sample-dialogs.c:127
 msgid "This is a sample plugin"
-msgstr "Questo è un plugin d'esempio"
+msgstr "Questo è un componente aggiuntivo di esempio"
 
 #: ../panel-plugin/sample-dialogs.c:129
 msgid "Copyright © 2006-2017 Xfce Dev\n"
-msgstr "Copyright © 2006-2017 Xfce Dev\n"
+msgstr "Copyright © 2006-2017 Sviluppatori di Xfce\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
-msgstr "Plugin d'esempio per il pannello di Xfce"
+msgstr "Componente aggiuntivo di esempio per il pannello di Xfce"
