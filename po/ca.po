@@ -47,4 +47,4 @@ msgstr "Drets d'autor © 2006-2017 Xfce Dev\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
-msgstr "Connector de mostra per al plafó de Xfce"
+msgstr "Connector de mostra per al tauler de Xfce"
