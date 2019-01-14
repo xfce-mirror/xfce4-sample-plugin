@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Davidmp <medipas@gmail.com>, 2017
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017
 # 
 #, fuzzy
@@ -51,4 +50,4 @@ msgstr "Drets d'autor © 2006-2017 Xfce Dev\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
-msgstr "Connector de mostra per al tauler d'Xfce"
+msgstr "Connector de mostra per al tauler de Xfce"
