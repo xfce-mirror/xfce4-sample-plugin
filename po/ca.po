@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Davidmp <medipas@gmail.com>, 2017
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-28 14:00+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2017-07-25 11:30+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017\n"
 "Language-Team: Catalan (https://www.transifex.com/xfce/teams/16840/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -47,4 +51,4 @@ msgstr "Drets d'autor © 2006-2017 Xfce Dev\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
-msgstr "Connector de mostra per al tauler de Xfce"
+msgstr "Connector de mostra per al tauler d'Xfce"
