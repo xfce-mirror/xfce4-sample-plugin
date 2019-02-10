@@ -3,13 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Nuno Miguel <nunomgue@gmail.com>, 2017
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-25 18:40+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"POT-Creation-Date: 2017-11-28 14:00+0100\n"
+"PO-Revision-Date: 2017-07-25 11:30+0000\n"
 "Last-Translator: Nuno Miguel <nunomgue@gmail.com>, 2017\n"
 "Language-Team: Portuguese (https://www.transifex.com/xfce/teams/16840/pt/)\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +24,7 @@ msgstr ""
 #. some sample widgets
 #: ../panel-plugin/sample.c:161
 msgid "Sample"
-msgstr "Sample"
+msgstr "Amostra"
 
 #: ../panel-plugin/sample.c:165
 msgid "Plugin"
@@ -35,7 +38,7 @@ msgstr "Incapaz de abrir o seguinte url: %s"
 #. create the dialog
 #: ../panel-plugin/sample-dialogs.c:81 ../panel-plugin/sample.desktop.in.h:1
 msgid "Sample Plugin"
-msgstr "Plugin Sample"
+msgstr "Plugin Amostra"
 
 #: ../panel-plugin/sample-dialogs.c:127
 msgid "This is a sample plugin"
@@ -47,4 +50,4 @@ msgstr "Copyright © 2006-2017 Xfce Dev\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
-msgstr "Plugin sample para o painel Xfce"
+msgstr "Plugin amostra para o painel Xfce"
