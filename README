@@ -11,12 +11,12 @@ Installation
 
 The file 'INSTALL' contains generic installation instructions. For more
 detailed information, visit the Sample plugin website at
-http://goodies.xfce.org/projects/panel-plugins/xfce4-sample-plugin
+https://docs.xfce.org/panel-plugins/xfce4-sample-plugin
 
 
 How to report bugs?
 ===================
 
 Bugs should be reported to the Xfce bug tracking system
-(http://bugzilla.xfce.org, product 'Xfce Panel Plugins', Component
+(https://bugzilla.xfce.org, product 'Xfce Panel Plugins', Component
 'Sample plugin'). You will need to create an account for yourself.
