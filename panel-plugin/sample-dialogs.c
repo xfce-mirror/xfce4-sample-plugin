@@ -1,6 +1,6 @@
 /*  $Id$
  *
- *  Copyright (C) 2012 John Doo <john@foo.org>
+ *  Copyright (C) 2019 John Doo <john@foo.org>
  *
  *  This program is free software; you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -25,7 +25,7 @@
 #include <gtk/gtk.h>
 
 #include <libxfce4ui/libxfce4ui.h>
-#include <libxfce4panel/xfce-panel-plugin.h>
+#include <libxfce4panel/libxfce4panel.h>
 
 #include "sample.h"
 #include "sample-dialogs.h"
@@ -126,7 +126,7 @@ sample_about (XfcePanelPlugin *plugin)
                          "program-name", PACKAGE_NAME,
                          "comments",     _("This is a sample plugin"),
                          "website",      PLUGIN_WEBSITE,
-                         "copyright",    _("Copyright \xc2\xa9 2006-2017 Xfce Dev\n"),
+                         "copyright",    _("Copyright \xc2\xa9 2006-2019 Xfce Dev\n"),
                          "authors",      auth,
                          NULL);
 
