@@ -6,15 +6,16 @@
 # Translators:
 # Nick Schermer <nick@xfce.org>, 2017
 # Andre Miranda <andre42m@gmail.com>, 2017
+# Michael Martins <michaelfm21@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 14:00+0100\n"
+"POT-Creation-Date: 2019-11-21 18:31+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: Andre Miranda <andre42m@gmail.com>, 2017\n"
+"Last-Translator: Michael Martins <michaelfm21@gmail.com>, 2019\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/xfce/teams/16840/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,8 +47,8 @@ msgid "This is a sample plugin"
 msgstr "Este é um plug-in de exemplo"
 
 #: ../panel-plugin/sample-dialogs.c:129
-msgid "Copyright © 2006-2017 Xfce Dev\n"
-msgstr "Copyright © 2006-2017 Desenvolvedores do Xfce\n"
+msgid "Copyright © 2006-2019 Xfce Dev\n"
+msgstr "Copyright © 2006-2019 Xfce Dev\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
