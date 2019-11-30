@@ -5,15 +5,16 @@
 # 
 # Translators:
 # Allan Nordhøy <epost@anotheragency.no>, 2017
+# Kjell Cato Heskjestad <cato@heskjestad.xyz>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 14:00+0100\n"
+"POT-Creation-Date: 2019-11-21 18:31+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: Allan Nordhøy <epost@anotheragency.no>, 2017\n"
+"Last-Translator: Kjell Cato Heskjestad <cato@heskjestad.xyz>, 2019\n"
 "Language-Team: Norwegian Bokmål (https://www.transifex.com/xfce/teams/16840/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,8 +46,8 @@ msgid "This is a sample plugin"
 msgstr "Dette er et eksempeltillegg"
 
 #: ../panel-plugin/sample-dialogs.c:129
-msgid "Copyright © 2006-2017 Xfce Dev\n"
-msgstr "Kopirett © 2006-2017 Xfce Dev\n"
+msgid "Copyright © 2006-2019 Xfce Dev\n"
+msgstr "Opphavsrett © 2006-2019 Xfce Dev\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
