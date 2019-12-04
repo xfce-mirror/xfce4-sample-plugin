@@ -114,7 +114,7 @@ sample_about (XfcePanelPlugin *plugin)
 
   const gchar *auth[] =
     {
-      "Xfce Dev <xfce4-dev@xfce.org>",
+      "Xfce development team <xfce4-dev@xfce.org>",
       NULL
     };
 
@@ -126,7 +126,7 @@ sample_about (XfcePanelPlugin *plugin)
                          "program-name", PACKAGE_NAME,
                          "comments",     _("This is a sample plugin"),
                          "website",      PLUGIN_WEBSITE,
-                         "copyright",    _("Copyright \xc2\xa9 2006-2019 Xfce Dev\n"),
+                         "copyright",    _("Copyright \xc2\xa9 2006-2019 Xfce development team\n"),
                          "authors",      auth,
                          NULL);
 
