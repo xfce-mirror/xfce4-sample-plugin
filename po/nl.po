@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pjotr <pjotrvertaalt@gmail.com>, 2017
+# Pjotr <pjotrvertaalt@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 14:00+0100\n"
+"POT-Creation-Date: 2019-12-05 06:32+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: Pjotr <pjotrvertaalt@gmail.com>, 2017\n"
+"Last-Translator: Pjotr <pjotrvertaalt@gmail.com>, 2019\n"
 "Language-Team: Dutch (https://www.transifex.com/xfce/teams/16840/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,8 +45,8 @@ msgid "This is a sample plugin"
 msgstr "Dit is een voorbeeldinvoegsel"
 
 #: ../panel-plugin/sample-dialogs.c:129
-msgid "Copyright © 2006-2017 Xfce Dev\n"
-msgstr "Auteursrecht © 2006-2017 Xfce-ontw.\n"
+msgid "Copyright © 2006-2019 Xfce development team\n"
+msgstr "Auteursrecht © 2006-2019 Xfce-ontwikkelaarsploeg\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
