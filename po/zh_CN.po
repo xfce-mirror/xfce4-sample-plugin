@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-21 18:31+0100\n"
+"POT-Creation-Date: 2019-12-05 06:32+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
 "Last-Translator: 玉堂白鹤 <yjwork@qq.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/xfce/teams/16840/zh_CN/)\n"
@@ -47,8 +47,8 @@ msgid "This is a sample plugin"
 msgstr "这是一个示例插件"
 
 #: ../panel-plugin/sample-dialogs.c:129
-msgid "Copyright © 2006-2019 Xfce Dev\n"
-msgstr "版权所有 © 2006-2019 Xfce Dev\n"
+msgid "Copyright © 2006-2019 Xfce development team\n"
+msgstr "版权所有 © 2006-2019 Xfce 开发团队\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
