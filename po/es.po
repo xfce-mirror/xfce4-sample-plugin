@@ -4,17 +4,18 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2017
+# prflr88 <prflr88@gmail.com>, 2017
 # gabrieltandil <gabriel.tandil@gmail.com>, 2017
+# Ignacio Poggi <ignaciop.3@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 14:00+0100\n"
+"POT-Creation-Date: 2019-12-05 06:32+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: gabrieltandil <gabriel.tandil@gmail.com>, 2017\n"
+"Last-Translator: Ignacio Poggi <ignaciop.3@gmail.com>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/xfce/teams/16840/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,8 +47,8 @@ msgid "This is a sample plugin"
 msgstr "Este es un complemento de ejemplo"
 
 #: ../panel-plugin/sample-dialogs.c:129
-msgid "Copyright © 2006-2017 Xfce Dev\n"
-msgstr "Derechos de autor © 2006-2017 Desarrollador de Xfce\n"
+msgid "Copyright © 2006-2019 Xfce development team\n"
+msgstr "Derechos de autor © 2006-2019 Equipo de desarrollo de Xfce\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
