@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Саша Петровић <salepetronije@gmail.com>, 2017
+# Саша Петровић <salepetronije@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 14:00+0100\n"
+"POT-Creation-Date: 2019-12-05 06:32+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: Саша Петровић <salepetronije@gmail.com>, 2017\n"
+"Last-Translator: Саша Петровић <salepetronije@gmail.com>, 2019\n"
 "Language-Team: Serbian (https://www.transifex.com/xfce/teams/16840/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,8 +45,8 @@ msgid "This is a sample plugin"
 msgstr "Ово је прикључак узорак"
 
 #: ../panel-plugin/sample-dialogs.c:129
-msgid "Copyright © 2006-2017 Xfce Dev\n"
-msgstr "Права умножавања © 2006-2017 развијачи Иксфце-а\n"
+msgid "Copyright © 2006-2019 Xfce development team\n"
+msgstr "Права умножавања Развојна дружина Иксфце-а © 2006-2019\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
