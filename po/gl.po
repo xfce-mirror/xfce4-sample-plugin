@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-21 18:31+0100\n"
+"POT-Creation-Date: 2019-12-05 06:32+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
 "Last-Translator: Daniel Muñiz Fontoira <dani@damufo.com>, 2019\n"
 "Language-Team: Galician (https://www.transifex.com/xfce/teams/16840/gl/)\n"
@@ -45,7 +45,7 @@ msgid "This is a sample plugin"
 msgstr "Este é u n exemplo de engadido"
 
 #: ../panel-plugin/sample-dialogs.c:129
-msgid "Copyright © 2006-2019 Xfce Dev\n"
+msgid "Copyright © 2006-2019 Xfce development team\n"
 msgstr "Copyright © 2006-2019 O equipo de desenvolvemento do Xfce\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
