@@ -4,17 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Nick Schermer <nick@xfce.org>, 2017
-# Besnik <besnik@programeshqip.org>, 2019
+# Besnik <besnik@programeshqip.org>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-21 18:31+0100\n"
+"POT-Creation-Date: 2019-12-05 06:32+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: Besnik <besnik@programeshqip.org>, 2019\n"
+"Last-Translator: Besnik <besnik@programeshqip.org>, 2020\n"
 "Language-Team: Albanian (https://www.transifex.com/xfce/teams/16840/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +33,7 @@ msgstr "Shtojcë"
 #: ../panel-plugin/sample-dialogs.c:51
 #, c-format
 msgid "Unable to open the following url: %s"
-msgstr "I pazoti të hapë url-në vijuese: %s"
+msgstr "S’arrihet të hapet url-ja vijuese: %s"
 
 #. create the dialog
 #: ../panel-plugin/sample-dialogs.c:81 ../panel-plugin/sample.desktop.in.h:1
@@ -46,8 +45,8 @@ msgid "This is a sample plugin"
 msgstr "Kjo është një shtojcë shembull"
 
 #: ../panel-plugin/sample-dialogs.c:129
-msgid "Copyright © 2006-2019 Xfce Dev\n"
-msgstr "Të drejta kopjimi © 2006-2019 Xfce Dev\n"
+msgid "Copyright © 2006-2019 Xfce development team\n"
+msgstr "Të drejta kopjimi © 2006-2019 Ekipi i zhvillimit të Xfce-së\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
