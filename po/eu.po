@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 14:00+0100\n"
+"POT-Creation-Date: 2019-12-05 06:32+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
 "Last-Translator: beriain, 2018\n"
 "Language-Team: Basque (https://www.transifex.com/xfce/teams/16840/eu/)\n"
@@ -46,8 +46,8 @@ msgid "This is a sample plugin"
 msgstr "Hau ereduzko plugin bat da"
 
 #: ../panel-plugin/sample-dialogs.c:129
-msgid "Copyright © 2006-2017 Xfce Dev\n"
-msgstr "Copyright © 2006-2017 Xfce Dev\n"
+msgid "Copyright © 2006-2019 Xfce development team\n"
+msgstr ""
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
