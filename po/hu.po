@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Nick Schermer <nick@xfce.org>, 2017
-# Balázs Meskó <meskobalazs@gmail.com>, 2018
+# Balázs Meskó <mesko.balazs@fsf.hu>, 2018
 # Gábor P., 2020
 # 
 #, fuzzy
