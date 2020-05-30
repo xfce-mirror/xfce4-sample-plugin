@@ -1,8 +1,7 @@
-dnl $Id$
 dnl
 dnl xfce4-sample-plugin - A sample plugin for the Xfce panel
 dnl
-dnl 2019 John Doo <john@foo.org>
+dnl 2020 John Doo <john@example.org>
 dnl
 
 dnl ***************************
@@ -21,19 +20,19 @@ AC_CONFIG_MACRO_DIR([m4])
 dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
-AC_COPYRIGHT([Copyright (C) 2019
+AC_COPYRIGHT([Copyright (C) 2020
         The Xfce development team. All rights reserved.])
-AC_INIT([xfce4-sample-plugin], [sample_version], [https://bugzilla.xfce.org/], [xfce4-sample-plugin])
+AC_INIT([xfce4-sample-plugin], [sample_version], [https://gitlab.xfce.org/panel-plugins/xfce4-sample-plugin], [xfce4-sample-plugin])
 AC_PREREQ([2.50])
 AC_REVISION([xfce4_panel_version_build])
 
 dnl ***************************
 dnl *** Initialize automake ***
 dnl ***************************
-AM_INIT_AUTOMAKE([1.11 no-dist-gzip dist-bzip2 tar-ustar])
+AM_INIT_AUTOMAKE([1.15 no-dist-gzip dist-bzip2 tar-ustar foreign])
 AC_CONFIG_HEADER([config.h])
 AM_MAINTAINER_MODE()
-m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
+AM_SILENT_RULES([yes])
 
 dnl **************************
 dnl *** Initialize libtool ***
@@ -72,8 +71,8 @@ XDT_CHECK_LIBX11_REQUIRE()
 dnl ***********************************
 dnl *** Check for required packages ***
 dnl ***********************************
-XDT_CHECK_PACKAGE([LIBXFCE4UI], [libxfce4ui-2], [4.12.0])
-XDT_CHECK_PACKAGE([LIBXFCE4PANEL], [libxfce4panel-2.0], [4.12.0])
+XDT_CHECK_PACKAGE([LIBXFCE4UI], [libxfce4ui-2], [4.14.0])
+XDT_CHECK_PACKAGE([LIBXFCE4PANEL], [libxfce4panel-2.0], [4.14.0])
 
 dnl ***********************************
 dnl *** Check for debugging support ***
@@ -93,7 +92,7 @@ AC_MSG_CHECKING([PLATFORM_LDFLAGS])
 AC_MSG_RESULT([$PLATFORM_LDFLAGS])
 AC_SUBST([PLATFORM_LDFLAGS])
 
-AC_OUTPUT([
+AC_CONFIG_FILES([
 Makefile
 icons/Makefile
 icons/48x48/Makefile
@@ -101,6 +100,7 @@ icons/scalable/Makefile
 panel-plugin/Makefile
 po/Makefile.in
 ])
+AC_OUTPUT
 
 dnl ***************************
 dnl *** Print configuration ***
