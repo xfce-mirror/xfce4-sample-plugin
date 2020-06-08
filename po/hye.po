@@ -46,7 +46,7 @@ msgstr "Սա ներդրաւնի նմուշ է"
 
 #: ../panel-plugin/sample-dialogs.c:129
 msgid "Copyright © 2006-2019 Xfce development team\n"
-msgstr ""
+msgstr "Հեղինակային իրաւունք © 2006-2019 Xfce մշակման խումբ\n"
 
 #: ../panel-plugin/sample.desktop.in.h:2
 msgid "Sample plugin for the Xfce panel"
