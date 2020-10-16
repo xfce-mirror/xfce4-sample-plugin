@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Nick Schermer <nick@xfce.org>, 2017
-# dull2wall, 2017
+# 916b300d72c9f404e033ca28026e4c57_4fab4b5, 2017
 # 玉堂白鹤 <yjwork@qq.com>, 2019
 # 
 #, fuzzy
