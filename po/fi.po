@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Tapio Väisänen, 2017
+# a0e71e34efd53e9524ff69b7abbb498c_b427056, 2017
 # Pasi Lallinaho <pasi@shimmerproject.org>, 2018
 # Ammuu5, 2020
 # 
