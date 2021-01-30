@@ -30,7 +30,7 @@ dnl ***************************
 dnl *** Initialize automake ***
 dnl ***************************
 AM_INIT_AUTOMAKE([1.15 no-dist-gzip dist-bzip2 tar-ustar foreign])
-AC_CONFIG_HEADER([config.h])
+AC_CONFIG_HEADERS([config.h])
 AM_MAINTAINER_MODE()
 AM_SILENT_RULES([yes])
 
@@ -52,7 +52,6 @@ IT_PROG_INTLTOOL([0.35.0])
 dnl **********************************
 dnl *** Check for standard headers ***
 dnl **********************************
-AC_HEADER_STDC()
 AC_CHECK_HEADERS([stdlib.h unistd.h locale.h stdio.h errno.h time.h string.h \
                   math.h sys/types.h sys/wait.h memory.h signal.h sys/prctl.h \
                   libintl.h])
