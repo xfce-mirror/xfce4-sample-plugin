@@ -4,7 +4,6 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# prflr88 <prflr88@gmail.com>, 2017
 # gabrieltandil <gabriel.tandil@gmail.com>, 2017
 # Toni Estévez <toni.estevez@gmail.com>, 2021
 # 
@@ -35,7 +34,7 @@ msgstr "Complemento"
 #: ../panel-plugin/sample-dialogs.c:51
 #, c-format
 msgid "Unable to open the following url: %s"
-msgstr "No se puede abrir la siguiente dirrección URL: %s"
+msgstr "No se puede abrir el URL siguiente: %s"
 
 #. create the dialog
 #: ../panel-plugin/sample-dialogs.c:81 ../panel-plugin/sample.desktop.in.h:1
