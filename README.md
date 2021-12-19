@@ -6,6 +6,8 @@ Xfce4-sample-plugin is a sample plugin for the Xfce panel, version 4.14 or highe
 It demonstrates the basic usage of the plugin framework and provides a
 good layout for initial imports.
 
+Note that there is as well an experimental [python sample plugin](https://gitlab.xfce.org/itsManjeet/sample-python-plugin), in case you prefer to write a plugin in python.
+
 ----
 
 ### Homepage
