@@ -43,10 +43,11 @@ libsample_la_LIBADD = \
 desktopdir =								\
 	$(datadir)/xfce4/panel/plugins
 
+sample.desktop: sample.desktop.in
+	$(AM_V_GEN)$(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
+
 desktop_DATA =								\
 	sample.desktop
-
-@INTLTOOL_DESKTOP_RULE@
 
 EXTRA_DIST =								\
 	sample.desktop.in
