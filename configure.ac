@@ -47,7 +47,6 @@ AC_PROG_CC()
 AC_PROG_CC_C_O()
 AC_PROG_LD()
 AC_PROG_INSTALL()
-IT_PROG_INTLTOOL([0.35.0])
 
 dnl **********************************
 dnl *** Check for standard headers ***
@@ -60,7 +59,9 @@ AC_CHECK_FUNCS([bind_textdomain_codeset])
 dnl ******************************
 dnl *** Check for i18n support ***
 dnl ******************************
-XDT_I18N([@LINGUAS@])
+AM_GNU_GETTEXT([external])
+AM_GNU_GETTEXT_VERSION([0.19.8])
+dnl XDT_I18N
 
 dnl *******************************
 dnl *** Check for X11 installed ***
