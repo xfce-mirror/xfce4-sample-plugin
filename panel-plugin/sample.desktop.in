@@ -1,8 +1,8 @@
 [Xfce Panel]
 Type=X-XFCE-PanelPlugin
 Encoding=UTF-8
-_Name=Sample Plugin
-_Comment=Sample plugin for the Xfce panel
+Name=Sample Plugin
+Comment=Sample plugin for the Xfce panel
 Icon=xfce4-sample-plugin
 X-XFCE-Module=sample
 X-XFCE-Internal=false
