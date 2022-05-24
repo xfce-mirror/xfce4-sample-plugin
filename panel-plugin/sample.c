@@ -234,7 +234,7 @@ sample_construct (XfcePanelPlugin *plugin)
   SamplePlugin *sample;
 
   /* setup transation domain */
-  xfce_textdomain(GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR, "UTF-8");
+  xfce_textdomain(PACKAGE, PACKAGE_LOCALE_DIR, "UTF-8");
 
   /* create the plugin */
   sample = sample_new (plugin);
