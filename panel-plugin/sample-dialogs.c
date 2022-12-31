@@ -110,26 +110,20 @@ sample_about (XfcePanelPlugin *plugin)
 {
   /* about dialog code. you can use the GtkAboutDialog
    * or the XfceAboutInfo widget */
-  GdkPixbuf *icon;
-
   const gchar *auth[] =
     {
       "Xfce development team <xfce4-dev@xfce.org>",
       NULL
     };
 
-  icon = xfce_panel_pixbuf_from_source ("xfce4-sample-plugin", NULL, 32);
   gtk_show_about_dialog (NULL,
-                         "logo",         icon,
-                         "license",      xfce_get_license_text (XFCE_LICENSE_TEXT_GPL),
-                         "version",      PACKAGE_VERSION,
-                         "program-name", PACKAGE_NAME,
-                         "comments",     _("This is a sample plugin"),
-                         "website",      PLUGIN_WEBSITE,
-                         "copyright",    _("Copyright \xc2\xa9 2006-2019 Xfce development team\n"),
-                         "authors",      auth,
+                         "logo-icon-name", "xfce4-sample-plugin",
+                         "license",        xfce_get_license_text (XFCE_LICENSE_TEXT_GPL),
+                         "version",        PACKAGE_VERSION,
+                         "program-name",   PACKAGE_NAME,
+                         "comments",       _("This is a sample plugin"),
+                         "website",        PLUGIN_WEBSITE,
+                         "copyright",      _("Copyright \xc2\xa9 2006-2019 Xfce development team\n"),
+                         "authors",        auth,
                          NULL);
-
-  if (icon)
-    g_object_unref (G_OBJECT (icon));
 }
