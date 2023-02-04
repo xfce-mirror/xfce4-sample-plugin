@@ -16,7 +16,6 @@ m4_define([sample_version_tag], [git])
 m4_define([sample_version], [sample_version_major().sample_version_minor().sample_version_micro()ifelse(sample_version_nano(), [], [], [.sample_version_nano()])ifelse(sample_version_tag(), [git], [sample_version_tag()-sample_version_build()], [sample_version_tag()])])
 m4_define([sample_default_debug], [ifelse(sample_version_tag(), [git], [yes], [minimum])])
 
-AC_CONFIG_MACRO_DIR([m4])
 dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
@@ -25,6 +24,7 @@ AC_COPYRIGHT([Copyright (C) 2020
 AC_INIT([xfce4-sample-plugin], [sample_version], [https://gitlab.xfce.org/panel-plugins/xfce4-sample-plugin], [xfce4-sample-plugin])
 AC_PREREQ([2.50])
 AC_REVISION([xfce4_panel_version_build])
+AC_CONFIG_MACRO_DIRS([m4])
 
 dnl ***************************
 dnl *** Initialize automake ***
@@ -45,7 +45,7 @@ dnl *** Check for basic programs ***
 dnl ********************************
 AC_PROG_CC()
 AC_PROG_CC_C_O()
-AC_PROG_LD()
+LT_PATH_LD([])
 AC_PROG_INSTALL()
 IT_PROG_INTLTOOL([0.35.0])
 
