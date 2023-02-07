@@ -14,7 +14,6 @@ autom4te.cache
 compile
 config.*
 configure
-configure.ac
 depcomp
 install-sh
 intltool*
@@ -24,8 +23,18 @@ missing
 mkinstalldirs
 panel-plugin/*.desktop
 panel-plugin/*.desktop.in
-po/.intltool-merge-cache*
 po/Makefile.in.in
 po/POTFILES
 stamp-*
 m4
+ABOUT-NLS
+po/Makevars.template
+po/Rules-quot
+po/boldquot.sed
+po/en@boldquot.header
+po/en@quot.header
+po/insert-header.sin
+po/quot.sed
+po/remove-potcdate.sed
+po/remove-potcdate.sin
+po/*.pot
