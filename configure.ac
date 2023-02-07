@@ -1,29 +1,21 @@
 dnl
 dnl xfce4-sample-plugin - A sample plugin for the Xfce panel
 dnl
-dnl 2020 John Doo <john@example.org>
+dnl 2023 John Doo <john@example.org>
 dnl
 
 dnl ***************************
 dnl *** Version information ***
 dnl ***************************
-m4_define([sample_version_major], [0])
-m4_define([sample_version_minor], [0])
-m4_define([sample_version_micro], [3])
-m4_define([sample_version_nano],  []) dnl leave this empty to have no nano version
-m4_define([sample_version_build], [@REVISION@])
-m4_define([sample_version_tag], [git])
-m4_define([sample_version], [sample_version_major().sample_version_minor().sample_version_micro()ifelse(sample_version_nano(), [], [], [.sample_version_nano()])ifelse(sample_version_tag(), [git], [sample_version_tag()-sample_version_build()], [sample_version_tag()])])
-m4_define([sample_default_debug], [ifelse(sample_version_tag(), [git], [yes], [minimum])])
-
+XDT_VERSION_INIT([0.0.4], [git])
 dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
-AC_COPYRIGHT([Copyright (C) 2020
+AC_COPYRIGHT([Copyright (C) 2023
         The Xfce development team. All rights reserved.])
-AC_INIT([xfce4-sample-plugin], [sample_version], [https://gitlab.xfce.org/panel-plugins/xfce4-sample-plugin], [xfce4-sample-plugin])
+AC_INIT([xfce4-sample-plugin], [xdt_version], [https://gitlab.xfce.org/panel-plugins/xfce4-sample-plugin], [xfce4-sample-plugin])
 AC_PREREQ([2.50])
-AC_REVISION([xfce4_panel_version_build])
+AC_REVISION([xdt_version_build])
 AC_CONFIG_MACRO_DIRS([m4])
 
 dnl ***************************
@@ -71,15 +63,15 @@ XDT_CHECK_LIBX11_REQUIRE()
 dnl ***********************************
 dnl *** Check for required packages ***
 dnl ***********************************
-XDT_CHECK_PACKAGE([GLIB], [glib-2.0], [2.50.0])
-XDT_CHECK_PACKAGE([GTK], [gtk+-3.0], [3.22.0])
-XDT_CHECK_PACKAGE([LIBXFCE4UI], [libxfce4ui-2], [4.14.0])
-XDT_CHECK_PACKAGE([LIBXFCE4PANEL], [libxfce4panel-2.0], [4.14.0])
+XDT_CHECK_PACKAGE([GLIB], [glib-2.0], [2.66.0])
+XDT_CHECK_PACKAGE([GTK], [gtk+-3.0], [3.24.0])
+XDT_CHECK_PACKAGE([LIBXFCE4UI], [libxfce4ui-2], [4.16.0])
+XDT_CHECK_PACKAGE([LIBXFCE4PANEL], [libxfce4panel-2.0], [4.16.0])
 
 dnl ***********************************
 dnl *** Check for debugging support ***
 dnl ***********************************
-XDT_FEATURE_DEBUG([sample_default_debug])
+XDT_FEATURE_DEBUG([xdt_debug_default])
 
 dnl *********************************
 dnl *** Substitute platform flags ***
