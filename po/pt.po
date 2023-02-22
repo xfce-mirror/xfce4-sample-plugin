@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-05 06:32+0100\n"
+"POT-Creation-Date: 2023-02-07 00:49+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>, 2019\n"
 "Language-Team: Portuguese (https://www.transifex.com/xfce/teams/16840/pt/)\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. some sample widgets
 #: ../panel-plugin/sample.c:161
@@ -37,18 +37,14 @@ msgid "Unable to open the following url: %s"
 msgstr "Incapaz de abrir o seguinte url: %s"
 
 #. create the dialog
-#: ../panel-plugin/sample-dialogs.c:81 ../panel-plugin/sample.desktop.in.h:1
+#: ../panel-plugin/sample-dialogs.c:81
 msgid "Sample Plugin"
 msgstr "Plugin Amostra"
 
-#: ../panel-plugin/sample-dialogs.c:127
+#: ../panel-plugin/sample-dialogs.c:124
 msgid "This is a sample plugin"
 msgstr "Este é um plugin amostra"
 
-#: ../panel-plugin/sample-dialogs.c:129
+#: ../panel-plugin/sample-dialogs.c:126
 msgid "Copyright © 2006-2019 Xfce development team\n"
 msgstr "Direitos de autor © 2006-2019 Equipa de desenvolvimento do Xfce\n"
-
-#: ../panel-plugin/sample.desktop.in.h:2
-msgid "Sample plugin for the Xfce panel"
-msgstr "Plugin amostra para o painel Xfce"
