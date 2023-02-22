@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-05 06:32+0100\n"
+"POT-Creation-Date: 2023-02-07 00:49+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
 "Last-Translator: Igor <f2404@yandex.ru>, 2019\n"
 "Language-Team: Russian (https://www.transifex.com/xfce/teams/16840/ru/)\n"
@@ -37,18 +37,14 @@ msgid "Unable to open the following url: %s"
 msgstr "Невозможно открыть ссылку: %s"
 
 #. create the dialog
-#: ../panel-plugin/sample-dialogs.c:81 ../panel-plugin/sample.desktop.in.h:1
+#: ../panel-plugin/sample-dialogs.c:81
 msgid "Sample Plugin"
 msgstr "Пример модуля"
 
-#: ../panel-plugin/sample-dialogs.c:127
+#: ../panel-plugin/sample-dialogs.c:124
 msgid "This is a sample plugin"
 msgstr "Это пример модуля"
 
-#: ../panel-plugin/sample-dialogs.c:129
+#: ../panel-plugin/sample-dialogs.c:126
 msgid "Copyright © 2006-2019 Xfce development team\n"
 msgstr "Copyright © 2006-2019 Команда разработчиков Xfce\n"
-
-#: ../panel-plugin/sample.desktop.in.h:2
-msgid "Sample plugin for the Xfce panel"
-msgstr "Пример модуля для панели Xfce"
