@@ -6,7 +6,6 @@
 # Translators:
 # Nick Schermer <nick@xfce.org>, 2017
 # Thomas Sungjin Kang <potopro@gmail.com>, 2017
-# 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>, 2017
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2020
 # 
 #, fuzzy
@@ -14,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-05 06:32+0100\n"
+"POT-Creation-Date: 2023-02-07 00:49+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>, 2020\n"
 "Language-Team: Korean (https://www.transifex.com/xfce/teams/16840/ko/)\n"
@@ -39,18 +38,14 @@ msgid "Unable to open the following url: %s"
 msgstr "다음 URL을 열 수 없습니다: %s"
 
 #. create the dialog
-#: ../panel-plugin/sample-dialogs.c:81 ../panel-plugin/sample.desktop.in.h:1
+#: ../panel-plugin/sample-dialogs.c:81
 msgid "Sample Plugin"
 msgstr "샘플 플러그인"
 
-#: ../panel-plugin/sample-dialogs.c:127
+#: ../panel-plugin/sample-dialogs.c:124
 msgid "This is a sample plugin"
 msgstr "요건 샘플 플러그인 입니다"
 
-#: ../panel-plugin/sample-dialogs.c:129
+#: ../panel-plugin/sample-dialogs.c:126
 msgid "Copyright © 2006-2019 Xfce development team\n"
 msgstr "Copyright © 2006-2019 Xfce development team\n"
-
-#: ../panel-plugin/sample.desktop.in.h:2
-msgid "Sample plugin for the Xfce panel"
-msgstr "Xfce 패널 샘플 플러그인"
