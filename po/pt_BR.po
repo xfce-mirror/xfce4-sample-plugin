@@ -6,16 +6,16 @@
 # Translators:
 # Nick Schermer <nick@xfce.org>, 2017
 # Andre Miranda <andre42m@gmail.com>, 2017
-# C. E., 2020
+# Giálisson Rocha, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-05 06:32+0100\n"
+"POT-Creation-Date: 2023-02-07 00:49+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: C. E., 2020\n"
+"Last-Translator: Giálisson Rocha, 2020\n"
 "Language-Team: Portuguese (Brazil) (https://www.transifex.com/xfce/teams/16840/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,18 +38,14 @@ msgid "Unable to open the following url: %s"
 msgstr "Não foi possível abrir a seguinte url: %s"
 
 #. create the dialog
-#: ../panel-plugin/sample-dialogs.c:81 ../panel-plugin/sample.desktop.in.h:1
+#: ../panel-plugin/sample-dialogs.c:81
 msgid "Sample Plugin"
 msgstr "Plug-in de Exemplo"
 
-#: ../panel-plugin/sample-dialogs.c:127
+#: ../panel-plugin/sample-dialogs.c:124
 msgid "This is a sample plugin"
 msgstr "Este é um plug-in de exemplo"
 
-#: ../panel-plugin/sample-dialogs.c:129
+#: ../panel-plugin/sample-dialogs.c:126
 msgid "Copyright © 2006-2019 Xfce development team\n"
 msgstr "Copyright © 2006-2019 Equipe de desenvolvimento do Xfce\n"
-
-#: ../panel-plugin/sample.desktop.in.h:2
-msgid "Sample plugin for the Xfce panel"
-msgstr "Plug-in de exemplo para o painel do Xfce"
