@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Xfce
+# This file is distributed under the same license as the xfce-panel-plugins.xfce4-sample-plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # ahmad <ahmad.almomani5@gmail.com>, 2017
-# Oukiki Saleh <salehoukiki@gmail.com>, 2017
+# Oukiki Saleh <salehoukiki@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-07 00:49+0100\n"
+"Project-Id-Version: xfce-panel-plugins.xfce4-sample-plugin\n"
+"Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
+"POT-Creation-Date: 2023-02-22 14:44+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: Oukiki Saleh <salehoukiki@gmail.com>, 2017\n"
+"Last-Translator: Oukiki Saleh <salehoukiki@gmail.com>, 2023\n"
 "Language-Team: Arabic (https://www.transifex.com/xfce/teams/16840/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,28 +23,36 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
 #. some sample widgets
-#: ../panel-plugin/sample.c:161
+#: panel-plugin/sample.c:161
 msgid "Sample"
 msgstr "نموذج"
 
-#: ../panel-plugin/sample.c:165
+#: panel-plugin/sample.c:165
 msgid "Plugin"
 msgstr "مكون إضافي"
 
-#: ../panel-plugin/sample-dialogs.c:51
+#: panel-plugin/sample-dialogs.c:51
 #, c-format
 msgid "Unable to open the following url: %s"
 msgstr "غير قادر على فتح الرابط التالي: %s"
 
 #. create the dialog
-#: ../panel-plugin/sample-dialogs.c:81
+#: panel-plugin/sample-dialogs.c:81 panel-plugin/sample.desktop.in:5
 msgid "Sample Plugin"
 msgstr "نموذج المكون الإضافي"
 
-#: ../panel-plugin/sample-dialogs.c:124
+#: panel-plugin/sample-dialogs.c:124
 msgid "This is a sample plugin"
 msgstr "هذا نموذج المكون الإضافي"
 
-#: ../panel-plugin/sample-dialogs.c:126
+#: panel-plugin/sample-dialogs.c:126
 msgid "Copyright © 2006-2019 Xfce development team\n"
+msgstr ""
+
+#: panel-plugin/sample.desktop.in:6
+msgid "Sample plugin for the Xfce panel"
+msgstr "نموذج المكون الإضافي لشريط xfce"
+
+#: panel-plugin/sample.desktop.in:7
+msgid "xfce4-sample-plugin"
 msgstr ""
