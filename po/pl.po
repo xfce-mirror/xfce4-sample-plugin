@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Xfce
+# This file is distributed under the same license as the xfce-panel-plugins.xfce4-sample-plugin package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-07 00:49+0100\n"
+"Project-Id-Version: xfce-panel-plugins.xfce4-sample-plugin\n"
+"Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
+"POT-Creation-Date: 2023-02-22 14:44+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
 "Last-Translator: Marek Adamski, 2023\n"
 "Language-Team: Polish (https://www.transifex.com/xfce/teams/16840/pl/)\n"
@@ -22,28 +22,36 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #. some sample widgets
-#: ../panel-plugin/sample.c:161
+#: panel-plugin/sample.c:161
 msgid "Sample"
 msgstr "Przykład"
 
-#: ../panel-plugin/sample.c:165
+#: panel-plugin/sample.c:165
 msgid "Plugin"
 msgstr "Wtyczka"
 
-#: ../panel-plugin/sample-dialogs.c:51
+#: panel-plugin/sample-dialogs.c:51
 #, c-format
 msgid "Unable to open the following url: %s"
 msgstr "Nie można otworzyć następującego adresu URL: %s"
 
 #. create the dialog
-#: ../panel-plugin/sample-dialogs.c:81
+#: panel-plugin/sample-dialogs.c:81 panel-plugin/sample.desktop.in:5
 msgid "Sample Plugin"
 msgstr "Wtyczka przykładowa"
 
-#: ../panel-plugin/sample-dialogs.c:124
+#: panel-plugin/sample-dialogs.c:124
 msgid "This is a sample plugin"
 msgstr "To jest wtyczka przykładowa"
 
-#: ../panel-plugin/sample-dialogs.c:126
+#: panel-plugin/sample-dialogs.c:126
 msgid "Copyright © 2006-2019 Xfce development team\n"
 msgstr "Prawa autorskie © 2006-2019 Zespół deweloperów Xfce\n"
+
+#: panel-plugin/sample.desktop.in:6
+msgid "Sample plugin for the Xfce panel"
+msgstr "Przykładowa wtyczka dla panelu Xfce"
+
+#: panel-plugin/sample.desktop.in:7
+msgid "xfce4-sample-plugin"
+msgstr "xfce4-sample-plugin"
