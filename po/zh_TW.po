@@ -55,4 +55,4 @@ msgstr "Xfce 面板的樣本外掛程式"
 
 #: panel-plugin/sample.desktop.in:7
 msgid "xfce4-sample-plugin"
-msgstr ""
+msgstr "xfce4-sample-plugin"
