@@ -6,8 +6,8 @@
 # Translators:
 # Nick Schermer <nick@xfce.org>, 2017
 # Thomas Sungjin Kang <potopro@gmail.com>, 2017
-# Seong-ho Cho <darkcircle.0426@gmail.com>, 2020
 # 1763f4a4329a2376c933c5e919a36cbc_341ca53 <1f851310383599d03339229d772e1290_119292>, 2023
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2023
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
 "POT-Creation-Date: 2023-02-22 14:44+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: 1763f4a4329a2376c933c5e919a36cbc_341ca53 <1f851310383599d03339229d772e1290_119292>, 2023\n"
+"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>, 2023\n"
 "Language-Team: Korean (https://www.transifex.com/xfce/teams/16840/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,4 +57,4 @@ msgstr "Xfce 패널 샘플 플러그인"
 
 #: panel-plugin/sample.desktop.in:7
 msgid "xfce4-sample-plugin"
-msgstr ""
+msgstr "xfce4-sample-plugin"
