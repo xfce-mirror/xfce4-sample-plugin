@@ -55,4 +55,4 @@ msgstr "Ejemplo de complemento para el panel de Xfce"
 
 #: panel-plugin/sample.desktop.in:7
 msgid "xfce4-sample-plugin"
-msgstr ""
+msgstr "xfce4-sample-plugin"
