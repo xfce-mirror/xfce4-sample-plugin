@@ -54,4 +54,4 @@ msgstr "Pavyzdinis įskiepis, skirtas Xfce skydeliui"
 
 #: panel-plugin/sample.desktop.in:7
 msgid "xfce4-sample-plugin"
-msgstr ""
+msgstr "xfce4-sample-plugin"
