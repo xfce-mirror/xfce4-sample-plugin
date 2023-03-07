@@ -55,4 +55,4 @@ msgstr "Primer vtičnika za Xfce pano"
 
 #: panel-plugin/sample.desktop.in:7
 msgid "xfce4-sample-plugin"
-msgstr ""
+msgstr "xfce4-sample-plugin"
