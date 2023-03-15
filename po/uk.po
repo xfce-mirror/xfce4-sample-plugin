@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Yarema aka Knedlyk <yupadmin@gmail.com>, 2023
+# Gordon Freeman, 2023
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
 "POT-Creation-Date: 2023-02-22 14:44+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: Yarema aka Knedlyk <yupadmin@gmail.com>, 2023\n"
+"Last-Translator: Gordon Freeman, 2023\n"
 "Language-Team: Ukrainian (https://www.transifex.com/xfce/teams/16840/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,4 +55,4 @@ msgstr "Прикладовий плагін для панелі Xfce"
 
 #: panel-plugin/sample.desktop.in:7
 msgid "xfce4-sample-plugin"
-msgstr ""
+msgstr "xfce4-sample-plugin"
