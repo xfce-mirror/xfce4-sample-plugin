@@ -123,7 +123,7 @@ sample_about (XfcePanelPlugin *plugin)
                          "program-name",   PACKAGE_NAME,
                          "comments",       _("This is a sample plugin"),
                          "website",        PLUGIN_WEBSITE,
-                         "copyright",      _("Copyright \xc2\xa9 2006-2019 Xfce development team\n"),
+                         "copyright",      "Copyright \xc2\xa9 2006-2023 The Xfce development team",
                          "authors",        auth,
                          NULL);
 }
