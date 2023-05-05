@@ -6,16 +6,15 @@
 # Translators:
 # Emin Tufan Çetin <etcetin@gmail.com>, 2020
 # Necdet Yücel <necdetyucel@gmail.com>, 2023
-# Demiray Muhterem <mdemiray@msn.com>, 2023
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: xfce-panel-plugins.xfce4-sample-plugin\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
-"POT-Creation-Date: 2023-04-19 01:17+0200\n"
+"POT-Creation-Date: 2023-05-05 10:56+0200\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: Demiray Muhterem <mdemiray@msn.com>, 2023\n"
+"Last-Translator: Necdet Yücel <necdetyucel@gmail.com>, 2023\n"
 "Language-Team: Turkish (https://app.transifex.com/xfce/teams/16840/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,7 +48,3 @@ msgstr "Bu, örnek eklentidir"
 #: panel-plugin/sample.desktop.in:6
 msgid "Sample plugin for the Xfce panel"
 msgstr "Xfce paneli için örnek eklenti"
-
-#: panel-plugin/sample.desktop.in:7
-msgid "xfce4-sample-plugin"
-msgstr "xfce4-örnek-eklentisi"
