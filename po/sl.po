@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfce-panel-plugins.xfce4-sample-plugin\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
-"POT-Creation-Date: 2023-04-19 01:17+0200\n"
+"POT-Creation-Date: 2023-05-05 10:56+0200\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
 "Last-Translator: Arnold Marko <arnold.marko@gmail.com>, 2023\n"
 "Language-Team: Slovenian (https://app.transifex.com/xfce/teams/16840/sl/)\n"
@@ -48,7 +48,3 @@ msgstr "To je primer vtičnika"
 #: panel-plugin/sample.desktop.in:6
 msgid "Sample plugin for the Xfce panel"
 msgstr "Primer vtičnika za Xfce pano"
-
-#: panel-plugin/sample.desktop.in:7
-msgid "xfce4-sample-plugin"
-msgstr "xfce4-sample-plugin"
