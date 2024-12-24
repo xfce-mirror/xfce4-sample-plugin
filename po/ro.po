@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Marius Ghita, 2024
 # Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2024
 # 
 #, fuzzy
@@ -11,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfce-panel-plugins.xfce4-sample-plugin\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
-"POT-Creation-Date: 2023-05-30 00:54+0200\n"
+"POT-Creation-Date: 2024-12-24 00:53+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>, 2024\n"
 "Language-Team: Romanian (https://app.transifex.com/xfce/teams/16840/ro/)\n"
@@ -39,6 +40,14 @@ msgstr "Nu s-a putut deschide următoarea adresă URL: %s"
 #: panel-plugin/sample-dialogs.c:81 panel-plugin/sample.desktop.in:5
 msgid "Sample Plugin"
 msgstr "Modul de exemplu"
+
+#: panel-plugin/sample-dialogs.c:84
+msgid "_Help"
+msgstr "_Ajutor"
+
+#: panel-plugin/sample-dialogs.c:85
+msgid "_Close"
+msgstr "În_chide"
 
 #: panel-plugin/sample-dialogs.c:124
 msgid "This is a sample plugin"
