@@ -6,16 +6,18 @@
 # Translators:
 # Ápo. <apostolos.papadimitriu@gmail.com>, 2017
 # Christos Arvanitis <arvchristos@gmail.com>, 2023
+# Xfce Bot <transifex@xfce.org>, 2024
+# Ioannis LM, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: xfce-panel-plugins.xfce4-sample-plugin\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
-"POT-Creation-Date: 2023-02-22 14:44+0100\n"
+"POT-Creation-Date: 2024-12-24 00:53+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: Christos Arvanitis <arvchristos@gmail.com>, 2023\n"
-"Language-Team: Greek (https://www.transifex.com/xfce/teams/16840/el/)\n"
+"Last-Translator: Ioannis LM, 2024\n"
+"Language-Team: Greek (https://app.transifex.com/xfce/teams/16840/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,18 +43,18 @@ msgstr "Αδυναμία ανοίγματος της ακόλουθης διεύ
 msgid "Sample Plugin"
 msgstr "Πρότυπο πρόσθετο"
 
+#: panel-plugin/sample-dialogs.c:84
+msgid "_Help"
+msgstr "_Βοήθεια"
+
+#: panel-plugin/sample-dialogs.c:85
+msgid "_Close"
+msgstr "_Κλείσιμο"
+
 #: panel-plugin/sample-dialogs.c:124
 msgid "This is a sample plugin"
 msgstr "Αυτό είναι ένα πρότυπο πρόσθετο"
 
-#: panel-plugin/sample-dialogs.c:126
-msgid "Copyright © 2006-2019 Xfce development team\n"
-msgstr ""
-
 #: panel-plugin/sample.desktop.in:6
 msgid "Sample plugin for the Xfce panel"
 msgstr "Πρότυπο πρόσθετο για το Xfce panel"
-
-#: panel-plugin/sample.desktop.in:7
-msgid "xfce4-sample-plugin"
-msgstr ""
