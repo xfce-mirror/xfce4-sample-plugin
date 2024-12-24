@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Steve Harris <steve@jbs.ca>, 2023
+# Steve Harris <steve@jbs.ca>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: xfce-panel-plugins.xfce4-sample-plugin\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
-"POT-Creation-Date: 2023-04-19 01:17+0200\n"
+"POT-Creation-Date: 2024-12-24 00:53+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: Steve Harris <steve@jbs.ca>, 2023\n"
+"Last-Translator: Steve Harris <steve@jbs.ca>, 2024\n"
 "Language-Team: English (Canada) (https://app.transifex.com/xfce/teams/16840/en_CA/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,6 +40,14 @@ msgstr "Unable to open the following url: %s"
 msgid "Sample Plugin"
 msgstr "Sample Plugin"
 
+#: panel-plugin/sample-dialogs.c:84
+msgid "_Help"
+msgstr "_Help"
+
+#: panel-plugin/sample-dialogs.c:85
+msgid "_Close"
+msgstr "_Close"
+
 #: panel-plugin/sample-dialogs.c:124
 msgid "This is a sample plugin"
 msgstr "This is a sample plugin"
@@ -47,7 +55,3 @@ msgstr "This is a sample plugin"
 #: panel-plugin/sample.desktop.in:6
 msgid "Sample plugin for the Xfce panel"
 msgstr "Sample plugin for the Xfce panel"
-
-#: panel-plugin/sample.desktop.in:7
-msgid "xfce4-sample-plugin"
-msgstr ""
