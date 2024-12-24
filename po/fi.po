@@ -6,15 +6,16 @@
 # Translators:
 # a0e71e34efd53e9524ff69b7abbb498c_b427056, 2017
 # Pasi Lallinaho <pasi@shimmerproject.org>, 2023
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: xfce-panel-plugins.xfce4-sample-plugin\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
-"POT-Creation-Date: 2023-04-19 01:17+0200\n"
+"POT-Creation-Date: 2024-12-24 00:53+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>, 2023\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>, 2024\n"
 "Language-Team: Finnish (https://app.transifex.com/xfce/teams/16840/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,6 +42,14 @@ msgstr "URL: %s ei avattavissa"
 msgid "Sample Plugin"
 msgstr "Esimerkkilliitännäinen"
 
+#: panel-plugin/sample-dialogs.c:84
+msgid "_Help"
+msgstr "_Ohje"
+
+#: panel-plugin/sample-dialogs.c:85
+msgid "_Close"
+msgstr "_Sulje"
+
 #: panel-plugin/sample-dialogs.c:124
 msgid "This is a sample plugin"
 msgstr "Tämä on esimerkkiliitännäinen"
@@ -48,7 +57,3 @@ msgstr "Tämä on esimerkkiliitännäinen"
 #: panel-plugin/sample.desktop.in:6
 msgid "Sample plugin for the Xfce panel"
 msgstr "Esimerkkiliitännäinen Xfce:n paneelille"
-
-#: panel-plugin/sample.desktop.in:7
-msgid "xfce4-sample-plugin"
-msgstr ""
