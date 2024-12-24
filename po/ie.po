@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Caarmi, 2023
+# Caarmi, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: xfce-panel-plugins.xfce4-sample-plugin\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
-"POT-Creation-Date: 2023-02-22 14:44+0100\n"
+"POT-Creation-Date: 2024-12-24 00:53+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: Caarmi, 2023\n"
-"Language-Team: Interlingue (https://www.transifex.com/xfce/teams/16840/ie/)\n"
+"Last-Translator: Caarmi, 2024\n"
+"Language-Team: Interlingue (https://app.transifex.com/xfce/teams/16840/ie/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,18 +40,18 @@ msgstr "Ne successat aperter li sequent URL: %s"
 msgid "Sample Plugin"
 msgstr "Un specimen de un plugin"
 
+#: panel-plugin/sample-dialogs.c:84
+msgid "_Help"
+msgstr "Au_xilie"
+
+#: panel-plugin/sample-dialogs.c:85
+msgid "_Close"
+msgstr "_Cluder"
+
 #: panel-plugin/sample-dialogs.c:124
 msgid "This is a sample plugin"
 msgstr "Un specimen"
 
-#: panel-plugin/sample-dialogs.c:126
-msgid "Copyright © 2006-2019 Xfce development team\n"
-msgstr ""
-
 #: panel-plugin/sample.desktop.in:6
 msgid "Sample plugin for the Xfce panel"
 msgstr "Un specimen de un plugin del panel Xfce"
-
-#: panel-plugin/sample.desktop.in:7
-msgid "xfce4-sample-plugin"
-msgstr ""
