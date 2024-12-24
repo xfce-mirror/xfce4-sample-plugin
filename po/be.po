@@ -4,16 +4,16 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Źmicier Turok <nashtlumach@gmail.com>, 2023
+# Źmicier Turok <nashtlumach@gmail.com>, 2024
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: xfce-panel-plugins.xfce4-sample-plugin\n"
 "Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
-"POT-Creation-Date: 2023-04-19 01:17+0200\n"
+"POT-Creation-Date: 2024-12-24 00:53+0100\n"
 "PO-Revision-Date: 2017-07-25 11:30+0000\n"
-"Last-Translator: Źmicier Turok <nashtlumach@gmail.com>, 2023\n"
+"Last-Translator: Źmicier Turok <nashtlumach@gmail.com>, 2024\n"
 "Language-Team: Belarusian (https://app.transifex.com/xfce/teams/16840/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,6 +40,14 @@ msgstr "Не атрымалася адкрыць наступны адрас: %s
 msgid "Sample Plugin"
 msgstr "Узор убудовы"
 
+#: panel-plugin/sample-dialogs.c:84
+msgid "_Help"
+msgstr "_Даведка"
+
+#: panel-plugin/sample-dialogs.c:85
+msgid "_Close"
+msgstr "_Закрыць"
+
 #: panel-plugin/sample-dialogs.c:124
 msgid "This is a sample plugin"
 msgstr "Гэта ўзор убудовы"
@@ -47,7 +55,3 @@ msgstr "Гэта ўзор убудовы"
 #: panel-plugin/sample.desktop.in:6
 msgid "Sample plugin for the Xfce panel"
 msgstr "Узор убудовы для панэлі Xfce"
-
-#: panel-plugin/sample.desktop.in:7
-msgid "xfce4-sample-plugin"
-msgstr ""
