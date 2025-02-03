@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Francesco Galizzi <f.galizzi92@gmail.com>, 2017
-# Emanuele Petriglia <transifex@emanuelepetriglia.com>, 2023
+# Emanuele Petriglia <inbox@emanuelepetriglia.com>, 2023
 # Xfce Bot <transifex@xfce.org>, 2024
 # 
 #, fuzzy
