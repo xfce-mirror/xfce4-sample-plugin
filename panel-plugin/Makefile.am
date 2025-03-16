@@ -20,6 +20,8 @@ libsample_la_SOURCES = \
 	sample-dialogs.h
 
 libsample_la_CFLAGS = \
+	$(GLIB_CFLAGS) \
+	$(GTK_CFLAGS) \
 	$(LIBXFCE4UTIL_CFLAGS) \
 	$(LIBXFCE4UI_CFLAGS) \
 	$(LIBXFCE4PANEL_CFLAGS) \
@@ -33,6 +35,8 @@ libsample_la_LDFLAGS = \
        $(PLATFORM_LDFLAGS)
 
 libsample_la_LIBADD = \
+	$(GLIB_LIBS) \
+	$(GTK_LIBS) \
 	$(LIBXFCE4UTIL_LIBS) \
 	$(LIBXFCE4UI_LIBS) \
 	$(LIBXFCE4PANEL_LIBS)
