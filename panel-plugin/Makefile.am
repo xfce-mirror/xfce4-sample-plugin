@@ -54,6 +54,7 @@ desktop_DATA =								\
 	sample.desktop
 
 EXTRA_DIST =								\
+	meson.build							\
 	sample.desktop.in
 
 CLEANFILES =								\

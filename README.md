@@ -2,7 +2,7 @@
 
 # xfce4-sample-plugin
 
-Xfce4-sample-plugin is a sample plugin for the Xfce panel, version 4.14 or higher.
+Xfce4-sample-plugin is a sample plugin for the Xfce panel, version 4.16 or higher.
 It demonstrates the basic usage of the plugin framework and provides a
 good layout for initial imports.
 
