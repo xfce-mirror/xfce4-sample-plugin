@@ -27,9 +27,9 @@ See [NEWS](https://gitlab.xfce.org/panel-plugins/xfce4-sample-plugin/-/blob/mast
 From source code repository: 
 
     % cd xfce4-sample-plugin
-    % ./autogen.sh
-    % make
-    % make install
+    % meson setup build
+    % meson compile -C build
+    % meson install -C build
 
 ### Reporting Bugs
 
