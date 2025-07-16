@@ -58,9 +58,6 @@ sample_configure_response (GtkWidget    *dialog,
       /* remove the dialog data from the plugin */
       g_object_set_data (G_OBJECT (sample->plugin), "dialog", NULL);
 
-      /* unlock the panel menu */
-      xfce_panel_plugin_unblock_menu (sample->plugin);
-
       /* save the plugin */
       sample_save (sample->plugin, sample);
 
@@ -77,16 +74,20 @@ sample_configure (XfcePanelPlugin *plugin,
 {
   GtkWidget *dialog;
 
-  /* block the plugin menu */
-  xfce_panel_plugin_block_menu (plugin);
+  if (sample->settings_dialog != NULL)
+    {
+      gtk_window_present (GTK_WINDOW (sample->settings_dialog));
+      return;
+    }
 
   /* create the dialog */
-  dialog = xfce_titled_dialog_new_with_mixed_buttons (_("Sample Plugin"),
+  sample->settings_dialog = dialog = xfce_titled_dialog_new_with_mixed_buttons (_("Sample Plugin"),
                                                       GTK_WINDOW (gtk_widget_get_toplevel (GTK_WIDGET (plugin))),
                                                       GTK_DIALOG_DESTROY_WITH_PARENT,
                                                       "help-browser-symbolic", _("_Help"), GTK_RESPONSE_HELP,
                                                       "window-close-symbolic", _("_Close"), GTK_RESPONSE_OK,
                                                       NULL);
+  g_object_add_weak_pointer (G_OBJECT (sample->settings_dialog), (gpointer *) &sample->settings_dialog);
 
   /* center dialog on the screen */
   gtk_window_set_position (GTK_WINDOW (dialog), GTK_WIN_POS_CENTER);
