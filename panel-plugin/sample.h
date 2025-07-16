@@ -33,6 +33,7 @@ typedef struct
     GtkWidget       *label;
 
     /* sample settings */
+    GtkWidget       *settings_dialog;
     gchar           *setting1;
     gint             setting2;
     gboolean         setting3;
