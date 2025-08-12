@@ -31,6 +31,10 @@ From source code repository:
     % meson compile -C build
     % meson install -C build
 
+### Uninstallation
+
+    % ninja uninstall -C build
+
 ### Reporting Bugs
 
 Visit the [reporting bugs](https://docs.xfce.org/panel-plugins/xfce4-sample-plugin/bugs) page to view currently open bug reports and instructions on reporting new bugs or submitting bugfixes.
