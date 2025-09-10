@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Xfce
+# This file is distributed under the same license as the xfce-panel-plugins.xfce4-sample-plugin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Nick Schermer <nick@xfce.org>, 2017
+# Abduqadir Abliz <sahranbay@gmail.com>, 2025
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce-panel-plugins.xfce4-sample-plugin\n"
+"Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
+"POT-Creation-Date: 2025-07-18 11:08+0200\n"
+"PO-Revision-Date: 2017-07-25 11:30+0000\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>, 2025\n"
+"Language-Team: Uyghur (https://app.transifex.com/xfce/teams/16840/ug/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ug\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. some sample widgets
+#: panel-plugin/sample.c:158
+msgid "Sample"
+msgstr "مىسال"
+
+#: panel-plugin/sample.c:162
+msgid "Plugin"
+msgstr "قىستۇرما"
+
+#: panel-plugin/sample-dialogs.c:54
+#, c-format
+msgid "Unable to open the following url: %s"
+msgstr "تۆۋەندىكى  URL نى ئاچقىلى بولمىدى: %s"
+
+#. create the dialog
+#: panel-plugin/sample-dialogs.c:84 panel-plugin/sample.desktop.in:5
+msgid "Sample Plugin"
+msgstr "مىسال قىستۇرما"
+
+#: panel-plugin/sample-dialogs.c:87
+msgid "_Help"
+msgstr "ياردەم(_H)"
+
+#: panel-plugin/sample-dialogs.c:88
+msgid "_Close"
+msgstr "ياپ(_C)"
+
+#: panel-plugin/sample-dialogs.c:128
+msgid "This is a sample plugin"
+msgstr "بۇ بىر مىسال قىستۇرما"
+
+#: panel-plugin/sample.desktop.in:6
+msgid "Sample plugin for the Xfce panel"
+msgstr "Xfce كۆزنەكچىنىڭ مىسال قىستۇرمىسى"
