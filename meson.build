@@ -13,7 +13,7 @@ project(
 
 project_namespace = 'panel-plugins'
 pkgdatadir = get_option('prefix') / get_option('datadir') / meson.project_name()
-copyright_year = '2025'
+copyright_year = '2026'
 
 cc = meson.get_compiler('c')
 pkgconfig = import('pkgconfig')
@@ -23,7 +23,7 @@ i18n = import('i18n')
 dependency_versions = {
   'glib': '>= 2.66.0',
   'gtk': '>= 3.24.0',
-  'xfce4': '>= 4.16.0',
+  'xfce4': '>= 4.18.0',
 }
 
 glib = dependency('glib-2.0', version: dependency_versions['glib'])
