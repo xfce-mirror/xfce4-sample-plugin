@@ -50,7 +50,7 @@ sample_configure_response (GtkWidget    *dialog,
 #else
       result = g_spawn_command_line_async ("exo-open --launch WebBrowser " PLUGIN_WEBSITE, NULL);
 #endif
-      if (G_UNLIKELY (result == FALSE))
+      if (G_UNLIKELY (!result))
         g_warning (_("Unable to open the following url: %s"), PLUGIN_WEBSITE);
     }
   else
