@@ -183,8 +183,7 @@ sample_free (XfcePanelPlugin *plugin,
   gtk_widget_destroy (sample->hvbox);
 
   /* cleanup the settings */
-  if (G_LIKELY (sample->setting1 != NULL))
-    g_free (sample->setting1);
+  g_free (sample->setting1);
 
   /* free the plugin structure */
   g_slice_free (SamplePlugin, sample);
